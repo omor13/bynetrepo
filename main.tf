@@ -21,5 +21,5 @@ provider "aws" {
 
 # New testing VPC
 resource "aws_vpc" "test_vpc" {
-    cidr_block = "192.168.1.0/24"
+    cidr_block = "192.168.0.0/24"
 }
